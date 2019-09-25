@@ -33,6 +33,8 @@ public class Practice09SetTextScaleXView extends View {
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
 
+        paint.setTextScaleX(1.2f);
+
         canvas.drawText(text, 50, 100, paint);
     }
 }

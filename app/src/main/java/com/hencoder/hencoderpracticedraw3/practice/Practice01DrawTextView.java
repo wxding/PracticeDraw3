@@ -8,6 +8,7 @@ import android.util.AttributeSet;
 import android.view.View;
 
 public class Practice01DrawTextView extends View {
+
     Paint paint = new Paint(Paint.ANTI_ALIAS_FLAG);
     String text = "Hello HenCoder";
 
@@ -33,5 +34,8 @@ public class Practice01DrawTextView extends View {
 
         // 使用 drawText() 来绘制文字
         // 文字坐标： (50, 100)
+        canvas.drawText(text, 50, 100, paint);
+
+
     }
 }
